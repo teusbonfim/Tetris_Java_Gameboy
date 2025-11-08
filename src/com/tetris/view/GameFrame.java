@@ -42,7 +42,7 @@ public class GameFrame extends JFrame {
         // Adiciona o JLayeredPane à janela
         add(layeredPane);
 
-        setTitle("Tetris");
+        setTitle("Tetris - Gameboy Edition by Mateus Bonfim Lidio");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         pack();
