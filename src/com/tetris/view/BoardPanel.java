@@ -127,7 +127,7 @@ public class BoardPanel extends JPanel {
         int y = (Board.BOARD_HEIGHT - 1 - gameOverY) * squareSize;
 
         // Cria uma linha vermelha semi-transparente
-        Color redLine = new Color(255, 0, 0, 128);
+        Color redLine = new Color(0xc8c7a8, true);
         g.setColor(redLine);
         g.fillRect(0, y - 2, getWidth(), 4);
     }

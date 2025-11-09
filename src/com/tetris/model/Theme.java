@@ -22,7 +22,7 @@ public record Theme(
         "Novo Tema",
         new Color(0x27, 0x2a, 0x19),  // fundo UI - novo tema escuro para barra lateral
         new Color(0xc8, 0xc7, 0xa8),  // fundo tabuleiro - tema claro para área de jogo
-        new Color(0x27, 0x2a, 0x19),  // grid - cor da borda
+        new Color(0xbfbe9c),  // grid - cor da borda
         new Color[] {
             new Color(0x27, 0x2a, 0x19),  // NoShape - cor da borda
             new Color(0x27, 0x2a, 0x19),  // ZShape - cor clara principal

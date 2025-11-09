@@ -36,8 +36,7 @@ public class InfoPanel extends JPanel {
         "Z ROTACIONAR",
         "ESPAÇO SOLTAR",
         "P PAUSAR",
-        "G SOMBRA",
-        "T TEMA"
+        "G SOMBRA"
     };
 
     public InfoPanel() {
