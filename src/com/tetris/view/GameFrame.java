@@ -1,5 +1,6 @@
 package com.tetris.view;
 
+import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLayeredPane;
 import java.awt.Dimension;
@@ -43,6 +44,8 @@ public class GameFrame extends JFrame {
         add(layeredPane);
 
         setTitle("Tetris - Gameboy Edition by Mateus Bonfim Lidio");
+        ImageIcon icon = new ImageIcon("src/com/tetris/view/resources/icon.png"); // ou o caminho que usar
+        setIconImage(icon.getImage());
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         pack();
