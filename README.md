@@ -1,6 +1,6 @@
 # Tetris — Java (Tema GameBoy)
 
-![Capa do Jogo](/src/com/tetris/view/resources/# Tetris — Java (Tema GameBoy).png)
+![Capa do Jogo](src/com/tetris/view/resources/Tetris_Logo.png)
 
 **Tetris desenvolvido em Java com tema inspirado na versão de GameBoy.**
 
